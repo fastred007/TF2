@@ -1,0 +1,77 @@
+// Unexplained crashes? Try changing mat_queue_mode to `-1'.
+// ----------------------------------------------------------------------------
+// Comanglia' frames config inspired by chris, designed to get you a large performance boost
+// v1.8beta | 18 December 2015 | https://dl.dropboxusercontent.com/u/92187841/gfx.cfg
+// ----------------------------------------------------------------------------
+// Launch options:
+// You don't have to remove -dxlevel from the launch options after the first launch!
+//
+// Fullscreen: -dxlevel 81 -full -w WIDTH -h HEIGHT -console -novid 
+// Windowed:   -dxlevel 81 -sw -w WIDTH -h HEIGHT -console -noborder -novid 
+// -useforcedmparms -noforcemaccel -noforcemspd // All of these are outdated and don't matter anymore
+//
+// DX Levels
+// -dxlevel 80, -dxlevel 81, -dxlevel 90, -dxlevel 91, -dxlevel 95, -dxlevel 98
+// if you can use -dxlevel 81 USE IT your fps will be significantly more stable, some Nvidia users may experience a weird strobing effect 
+// (some series of outdated nvidia drivers remove this affect)
+// ---
+
+
+fps_max 288
+mat_motion_blur_enabled 0
+
+// ----------------------------------------------------------------------------
+// Ragdolls
+// ----------------------------------------------------------------------------
+// You will have reduced performance on deaths which produce ragdolls.
+// ----------------------------------------------------------------------------
+
+// Disable ragdolls
+cl_ragdoll_fade_time 0
+cl_ragdoll_forcefade 1
+cl_ragdoll_physics_enable 0
+g_ragdoll_fadespeed 0
+g_ragdoll_lvfadespeed 0
+ragdoll_sleepaftertime 0
+
+// Enable ragdolls -- lowers by 10ish%
+//cl_ragdoll_fade_time 15
+//cl_ragdoll_forcefade 0
+//cl_ragdoll_physics_enable 1
+//g_ragdoll_fadespeed 600
+//g_ragdoll_lvfadespeed 100
+//ragdoll_sleepaftertime "5.0f"
+
+// ----------------------------------------------------------------------------
+// Gibs
+// ----------------------------------------------------------------------------
+// You will have reduced performance on deaths which produce gibs.
+// ----------------------------------------------------------------------------
+
+// Disable gibs
+cl_phys_props_enable 0
+cl_phys_props_max 0
+props_break_max_pieces 0
+r_propsmaxdist 1
+violence_agibs 0
+violence_hgibs 0
+
+// Enable gibs -- 6-7% less framerate
+//cl_phys_props_enable 1
+//cl_phys_props_max 128
+//props_break_max_pieces -1
+//r_propsmaxdist 1000
+//violence_agibs 1
+//violence_hgibs 1
+
+// ----------------------------------------------------------------------------
+// Graphical
+// ----------------------------------------------------------------------------
+// Now we come to the main brunt of the config. You probably don't want to mess
+// with this.
+// ----------------------------------------------------------------------------
+fov_desired 90
+mat_phong 0 // some people don't like this on I prefer it on for sniper though
+tf_particles_disable_weather 1 // Disable weather effects on maps supporting
+                               // it, for example, setting this to `1'
+                               // disables rain effects on *_sawmill.

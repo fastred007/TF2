@@ -1,0 +1,17 @@
+"motd_entries"
+{
+	"last_request_time"		"2017-11-26 23:04:01"
+	"last_request_language"		"english"
+	"83"
+	{
+		"post_time"		"2017-10-21 17:50:00"
+		"title_english"		"Jungle Inferno Update!"
+		"text_english"		"Five new community-made maps, class and item balancing, new Pyro items, new contracts, four War Paint collections, two community-made cosmetics cases, and more!
+			
+See all the details by clicking the button below."
+		"url"		"http://www.teamfortress.com/jungleinferno/"
+		"image"		"../vgui/main_menu/motd_jungle_inferno"
+		"header_type"		"0"
+		"header_english"		"Major Update"
+	}
+}
