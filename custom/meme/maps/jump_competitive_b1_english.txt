@@ -1,0 +1,5 @@
+Objective:
+Rocket jump through the course.
+
+Other Notes:
+Bonus jumps can only be accessed once all of the secret soldier hats are found.
