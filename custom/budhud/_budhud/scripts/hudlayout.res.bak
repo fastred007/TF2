@@ -168,7 +168,7 @@
 
     CMainTargetID               
     {               
-        "xpos"                                                      "c-300"
+        "xpos"                                                      "c-100"
         "ypos"                                                      "c25"
         "wide"                                                      "600"
         "tall"                                                      "40"
@@ -178,7 +178,7 @@
     
     CSpectatorTargetID
     {
-        "xpos"                                                      "c-300"
+        "xpos"                                                      "c-100"
         "ypos"                                                      "c120"
         "zpos"                                                      "1"
         "wide"                                                      "600"
@@ -191,7 +191,7 @@
     
     CSecondaryTargetID
     {
-        "xpos"                                                      "c-300"
+        "xpos"                                                      "c-100"
         "ypos"                                                      "c55"
         "zpos"                                                      "6"
         "wide"                                                      "600"
@@ -455,7 +455,7 @@
         "visible"       "1"
         "enabled"       "1"
         "fillcolor"     "127 255 0 255"
-        "alpha" "30"
+        "alpha" "15"
     }
     "Crosshair_horizontal_bottom"
     {

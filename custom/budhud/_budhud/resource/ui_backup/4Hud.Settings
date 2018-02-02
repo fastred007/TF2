@@ -1,0 +1,19 @@
+Window Size|160|24|
+Splitter Distance|853
+Splitter TF2 Distance|271
+Steam Path|C:\Program Files (x86)\Steam\Steam.exe
+Border Style|0
+Save All On F5|True
+Launch Presets|embed x480, 4:3?640?480?False?True|embed x480, 5:4?600?480?False?True|embed x480, 16:9?854?480?False?True|embed x480, 16:10?768?480?False?True
+Last Launch Preset|embed x480, 4:3
+Custom Launch Line|-console -novid -nopreload +developer
+TopMost|False
+Use Installed Hud|false
+Hud Paths|C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom\budhud\
+Screen Position|-32000|-32000|
+Splitter Container Distance|354
+Open Files 1|_budhud\resource\ui\scoreboard.res?2|
+Open Files 2|_budhud\scripts\hudlayout.res?2|
+Selected File 1|_budhud\resource\ui\scoreboard.res
+Selected File 2|_budhud\scripts\hudlayout.res
+Maximized|true
