@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sat Nov 25 18:37:49 AM
+// File generated:  Sun Jan 28 20:27:11 AM
 //
 //
 // Cvar	-	Setting
@@ -300,7 +300,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_UseAdvancedTourneyGUI"
 		"#Tooltip_UseAdvancedTourneyGUI"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_spec_carrieditems"
@@ -642,7 +642,7 @@ DESCRIPTION INFO_OPTIONS
 		"#Valve_SteamScreenshots"
 		"#Tooltip_SteamScreenshots"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_notifications_show_ingame"
@@ -754,7 +754,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#TF_DemoSupport_Screens"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"ds_min_streak"
@@ -770,7 +770,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_DemoSupport_KillDelay"
 		"#TF_DemoSupport_KillDelay_ToolTip"
 		{ NUMBER 5 1000 }
-		{ "150" }
+		{ "5" }
 	}
 
 	"ds_autodelete"

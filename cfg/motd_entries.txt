@@ -1,17 +1,17 @@
 "motd_entries"
 {
-	"last_request_time"		"2017-11-26 23:04:01"
+	"last_request_time"		"2018-02-02 22:02:28"
 	"last_request_language"		"english"
-	"83"
+	"84"
 	{
-		"post_time"		"2017-10-21 17:50:00"
-		"title_english"		"Jungle Inferno Update!"
-		"text_english"		"Five new community-made maps, class and item balancing, new Pyro items, new contracts, four War Paint collections, two community-made cosmetics cases, and more!
-			
-See all the details by clicking the button below."
-		"url"		"http://www.teamfortress.com/jungleinferno/"
-		"image"		"../vgui/main_menu/motd_jungle_inferno"
+		"post_time"		"2017-12-22 18:50:00"
+		"title_english"		"Merry Smissmas"
+		"text_english"		"Smissmas brings Stocking Stuffers for everyone, more weapons for the Festivizer, winter-themed community cosmetics, and new community War Paints!
+			Festivizers can be found as a random bonus when opening the Winter 2017 Cosmetic Case! Happy Holidays!"
+		"url"		"http://www.teamfortress.com/"
+		"image"		"../backpack/crafting/winter2013_stocking_stuffer_large"
 		"header_type"		"0"
-		"header_english"		"Major Update"
+		"header_english"		"News"
+		"header_icon"		"class_icons/filter_all_motd"
 	}
 }
