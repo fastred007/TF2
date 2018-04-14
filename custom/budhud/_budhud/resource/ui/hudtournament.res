@@ -6,7 +6,20 @@
 		"ypos"														"0"
 		"wide"														"f0"
 		"tall"														"f0"
-		"team2_player_delta_x"										"55"
+		
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+		// Controls comp mode team xpos
+		// delta xpos 49 leaves a pixel gap with playerpanel wide 48
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		"teams_player_delta_x_comp"									"49"
+	
+		"ModeImage"
+		{
+			"ypos"													"36"
+			"wide"													"40"
+			"tall"													"40"
+		}
 	
 		if_competitive
 		{
@@ -14,12 +27,7 @@
 			"ypos"													"0"
 			"wide"													"f0"
 			"tall"													"f0"
-			"team1_player_delta_x"									"59"
-			"team1_player_delta_y"									"40"
-			"team1_player_base_offset_x"							"-75"
-			"team2_player_delta_x"									"59"
-			"team2_player_delta_y"									"52"
-			"team2_player_base_offset_x"							"25"
+			"team1_player_base_y"									"40"
 		}
 
 		if_readymode
@@ -27,9 +35,9 @@
 			"xpos"													"0"
 			"ypos"													"0"
 			"wide"													"f0"
-			"tall"													"f0"		
-			"team1_player_base_y"									"4"
-			"team2_player_delta_x"									"55"
+			"tall"													"f0"
+			"team1_player_base_y"									"30"
+			"team2_player_delta_x"									"48"
 		}
 		
 		if_mvm
@@ -40,7 +48,7 @@
 		
 		playerpanels_kv
 		{
-			"wide"													"48"
+			"wide"													"49"
 			"tall"													"33"
 
 			"HealthIcon"
@@ -80,6 +88,12 @@
 			
 			"playername"
 			{
+				if_competitive
+				{
+					"xpos"											"1"
+					"wide"											"45"
+				}
+			
 				if_readymode
 				{
 					"xpos"											"1"
@@ -129,11 +143,12 @@
 		
 		if_readymode
 		{
+			"ypos"													"80"
 		}
 		
 		if_mvm
 		{
-			"ypos"													"36"
+			"ypos"													"r-6969"
 		}
 	}
 	
@@ -169,12 +184,12 @@
 		
 		if_competitive
 		{
-			"ypos"													"40"
+			"ypos"													"75"
 		}
 		
 		if_readymode
 		{
-			"ypos"													"40"
+			"ypos"													"65"
 		}
 		
 		if_mvm
@@ -207,7 +222,7 @@
 	"HudTournamentBLUEBG"
 	{
 		"xpos"														"c-60"
-		"ypos"														"20"
+		"ypos"														"28"
 		"wide"														"60"
 	
 		"draw_corner_width"											"0"
@@ -252,7 +267,7 @@
 	"HudTournamentREDBG"
 	{
 		"xpos"														"c0"
-		"ypos"														"20"
+		"ypos"														"28"
 		"wide"														"60"	
 	
 		"draw_corner_width"											"0"
@@ -277,7 +292,7 @@
 	"TournamentBLUEStateLabel"
 	{
 		"xpos"														"c-60"
-		"ypos"														"20"
+		"ypos"														"28"
 		"wide"														"60"
 		"textAlignment"												"center"
 		
@@ -300,7 +315,7 @@
 	"TournamentREDStateLabel"
 	{
 		"xpos"														"c0"
-		"ypos"														"20"
+		"ypos"														"28"
 		"wide"														"60"	
 		"textAlignment"												"center"
 		
@@ -323,7 +338,7 @@
 	"TournamentREDLabel"
 	{
 		"xpos"														"c62"
-		"ypos"														"20"
+		"ypos"														"28"
 		"wide"														"60"	
 		"textAlignment"												"west"
 		
@@ -346,7 +361,7 @@
 	"TournamentBLUELabel"
 	{
 		"xpos"														"c-122"
-		"ypos"														"20"
+		"ypos"														"28"
 		"wide"														"60"	
 		"textAlignment"												"east"
 		

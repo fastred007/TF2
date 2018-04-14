@@ -11,7 +11,7 @@
 	}
 
 	HudItemEffectMeter
-	{
+	{	
 		"fieldName"													"HudItemEffectMeter"
 		"visible"													"1"
 		"enabled"													"1"
@@ -21,8 +21,8 @@
 		"ypos"														"c110"
 		"wide"														"100"
 		"tall"														"6"
-		"MeterFG"													"bh_white"
-		"MeterBG"													"bh_gray"
+		"MeterFG"													"bh_meterfg"
+		"MeterBG"													"bh_meterbg"
 	}	
 	
 	"ItemEffectMeterLabel"
@@ -37,10 +37,11 @@
 		"tall"														"6"
 		"labelText"													"#TF_Ball"
 		"textAlignment"												"center"
-		"fgcolor_override"											"bh_gray"
-		"font"														"bh_Font8"
+		"font"														"bh_Font6Shadow"
+		"fgcolor_override"											"bh_metertext"
+		"defaultFgColor_override"									"bh_metertext"
 	}
-
+	
 	"ItemEffectMeter"
 	{	
 		"ControlName"												"ContinuousProgressBar"
@@ -65,15 +66,15 @@
 		"ControlName"												"ContinuousProgressBar"
 		"fieldName"													"ItemEffectMeter2"
 		"font"														"Default"
-		"xpos"														"0"
+		"xpos"														"50"
 		"ypos"														"0"
 		"zpos"														"2"
 		"wide"														"50"
 		"tall"														"f0"
 		"autoResize"												"0"
 		"pinCorner"													"0"
-		"visible"													"1"
-		"enabled"													"1"
+		"visible"													"0"
+		"enabled"													"0"
 		"textAlignment"												"Left"
 		"dulltext"													"0"
 		"brighttext"												"0"

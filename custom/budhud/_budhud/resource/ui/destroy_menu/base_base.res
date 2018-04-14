@@ -23,15 +23,27 @@
 	{
 		"xpos"														"8"
 		"textalignment"												"center"
+		"font"														"bh_Font16"
 	}
 	
-	"CantBuildReason"
+	"DestroyIcon"
 	{
-		"xpos"														"22"
-		"ypos"														"50"
+		"zpos"														"5"
+	}
+	
+	"BuildingIcon"
+	{
+		"zpos"														"10"
+	}	
+	
+	"NotBuiltLabel"
+	{
+		"xpos"														"21"
+		"ypos"														"52"
 		"wide"														"60"
-		"labeltext"													"Low Metal"
+		"font"														"bh_Font12"
+		"labeltext"													"#bh_NotBuilt"
 		"textalignment"												"center"
-		"fgcolor_override"											"bh_orange"
+		"fgcolor_override"											"bh_gray"
 	}
 }

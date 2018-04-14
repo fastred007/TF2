@@ -1,3 +1,8 @@
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// NOTE: Drop shadows added in (not by using default entries available in the base hud) cause issues
+	// with the Eureka Effect menu
+	////////////////////////////////////////////////////////////////////////////////////////////////////	
+
 "Resource/UI/build_menu/base_base.res"
 {
 	"ItemBackground"
@@ -11,6 +16,7 @@
 		"xpos"														"8"
 		"textalignment"												"center"
 		"fgcolor_override"											"bh_white"
+		"font"														"bh_Font12"
 	}
 	
 	"MetalIcon"
@@ -23,14 +29,16 @@
 	{
 		"xpos"														"8"
 		"textalignment"												"center"
+		"font"														"bh_Font16"
 	}
-	
+
 	"CantBuildReason"
 	{
-		"xpos"														"22"
-		"ypos"														"50"
+		"xpos"														"21"
+		"ypos"														"52"
 		"wide"														"60"
-		"labeltext"													"#bh_LowMetal"
+		"font"														"bh_Font12"
+		"labeltext"													"#bh_LowAmmo"
 		"textalignment"												"center"
 		"fgcolor_override"											"bh_orange"
 	}

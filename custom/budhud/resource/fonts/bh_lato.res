@@ -12,7 +12,7 @@
 	// TF2 Secondary: 47
 	// TF2 Build: 31
 	// TF2: 30
-	// ocra: 7
+	// ocra: 12
 	// Tahoma: 7
 	// Arial: 5
 	// TF2 Professor: 5
@@ -40,17 +40,17 @@ Scheme
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// BUDHUD FONTS
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-
+	
         "DefaultFixedOutline"
         {
             "1"
             {
-                "name"         "Lato Semibold"
-                "tall"         "12"
-                "weight"     "0"
-                "outline"     "0"
-                "additive"     "0"
-                "antialias"  "1"
+                "name"												"Lato Semibold"
+                "tall"												"12"
+                "weight"											"0"
+                "outline"											"0"
+                "additive"											"0"
+                "antialias"											"1"
             }
         }	
 	
@@ -64,6 +64,19 @@ Scheme
 				"antialias"											"1"
 			}
 		}
+		
+
+		"bh_Font6Shadow"
+		{
+			"1"
+			{
+				"name"												"Lato Semibold"
+				"tall"												"6"
+				"weight"											"500"
+				"shadow"											"1"
+				"antialias"											"1"
+			}
+		}		
 		
 		bh_Font8
 		{
@@ -334,7 +347,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"13"	[$WIN32]
-				"tall"		"20"	[$X360]
+				"tall"		"20"	[disabled]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
@@ -600,7 +613,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"13"	[$WIN32]
-				"tall"		"23"	[$X360]
+				"tall"		"23"	[disabled]
 				"weight"	"700"
 				"yres"	"600 767"
 			}
@@ -979,7 +992,7 @@ Scheme
 		}
 		GameUIButtons
 		{
-			"1"	//[$X360]
+			"1"	//[disabled]
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
@@ -991,7 +1004,7 @@ Scheme
 		}
 		GameUIButtonsSmall
 		{
-			"1"	[$X360]
+			"1"	[disabled]
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
@@ -1001,7 +1014,7 @@ Scheme
 		}
 		GameUIButtonsSmallest
 		{
-			"1"	[$X360]
+			"1"	[disabled]
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
@@ -1130,7 +1143,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"15"	[$WIN32]
-				"tall"		"21"	[$X360]
+				"tall"		"21"	[disabled]
 				"weight"	"700"
 				"antialias" 	"1"
 				"yres"		"600 767"
@@ -1175,7 +1188,7 @@ Scheme
 				"outline"	"1"
 				"range"		"0x0000 0x017F" // Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
-			"1"	[$X360]
+			"1"	[disabled]
 			{
 				"name"		"Lato Semibold"
 				"tall"		"18"
@@ -2805,6 +2818,67 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 				"dropshadow"	"1"
+			}
+		}
+
+		"QuestMap_Small_Blur"
+		{
+			"1"
+			{
+				"name"		"Lato Semibold"
+				"tall"		"7"
+				"weight"	"0"
+				"blur"		"3"
+				"additive"	"1"
+				"antialias" 	"1"
+			}
+		}
+
+		"QuestMap_Small"
+		{
+			"1"
+			{
+				"name"		"Lato Semibold"
+				"tall"		"7"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"QuestMap_Medium"
+		{
+			"1"
+			{
+				"name"		"Lato Semibold"
+				"tall"		"10"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"QuestMap_Large"
+		{
+			"1"
+			{
+				"name"		"Lato Semibold"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"QuestMap_Huge"
+		{
+			"1"
+			{
+				"name"		"Lato Semibold"
+				"tall"		"30"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 	}
